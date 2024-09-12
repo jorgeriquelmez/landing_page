@@ -1,0 +1,79 @@
+body{
+    background-color: #ddd;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 19em;
+    background-image: url("../imgs/oficina.png") ;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+
+    z-index: -1;
+    
+}
+.header h1{
+    color: white;
+    font-size: 5em;
+    padding-bottom: 0;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 3)
+    
+}   
+
+.header p{
+    color: white;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 3)
+}
+.tabla{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3em;
+    margin-top: 9em;
+    
+}
+.tabla td {
+    width: 50%;
+    padding: 2em;
+
+
+}
+.tabla img {
+    width: 100%;
+    border-radius: 20px;
+    border: solid 2px rgb(189, 186, 186) ;
+
+}
+    
+.footer{
+    background-image: linear-gradient(to left, #535151, #ececf0);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+}   
+
+.footer a:hover{
+    color: grey;
+    text-decoration: wavy;
+}
